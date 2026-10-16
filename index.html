@@ -240,7 +240,7 @@ nav.ctrl button.arr:hover{border-color:var(--red);background:var(--red)}
     <div>
       <div class="eyebrow">Swiss Technology · For professional use</div>
       <h1>Motor <em>Care</em></h1>
-      <p class="lead" style="margin-top:22px">Detalla, protege y lubrica todo el compartimiento del motor en un solo paso. Un servicio de alto margen que tus clientes ven — y pagan — cada 6 meses.</p>
+      <p class="lead" style="margin-top:22px">Detalla, protege y sella todo el compartimiento del motor en un solo paso. Un servicio de alto margen que tus clientes ven — y pagan — cada 6 meses.</p>
       <div class="hero-meta">
         <div><b>150<small style="font-size:18px">ml</small></b><span>Aerosol profesional</span></div>
         <div><b>1</b><span>Paso de aplicación</span></div>
@@ -293,7 +293,7 @@ nav.ctrl button.arr:hover{border-color:var(--red);background:var(--red)}
       <div class="steps">
         <div class="step"><i>01</i><span><b>Detalla</b><br>acabado como nuevo</span></div>
         <div class="step"><i>02</i><span><b>Protege</b><br>anticorrosivo</span></div>
-        <div class="step"><i>03</i><span><b>Lubrica</b><br>gomas y mangueras</span></div>
+        <div class="step"><i>03</i><span><b>Sella</b><br>gomas y mangueras</span></div>
       </div>
       <div class="toggle" id="baToggle">
         <button data-s="0">Sin protección</button>
@@ -352,7 +352,7 @@ nav.ctrl button.arr:hover{border-color:var(--red);background:var(--red)}
       <div class="field"><label>Vehículos atendidos en servicio / mes <output id="o_vol"></output></label><input type="range" id="vol" min="20" max="1000" step="10" value="250"></div>
       <div class="field"><label>% de clientes que aceptan Motor Care <output id="o_att"></output></label><input type="range" id="att" min="5" max="60" step="1" value="20"></div>
 
-      <h3 style="margin-top:6px">Precio del servicio <span class="tag" style="letter-spacing:.1em;font-size:11px">desde $80</span></h3>
+      <h3 style="margin-top:6px">Precio sugerido del servicio <span class="tag" style="letter-spacing:.1em;font-size:11px">desde $80</span></h3>
       <div class="tiers">
         <div class="tier"><div class="t">Compacto / Sedán</div><div class="pr"><span>$</span><input type="number" id="p1" value="80" min="80" step="5"></div><div class="mix">Mezcla <b id="o_m1"></b></div><input type="range" id="m1" min="0" max="100" value="50"></div>
         <div class="tier"><div class="t">SUV / Mediano</div><div class="pr"><span>$</span><input type="number" id="p2" value="100" min="80" step="5"></div><div class="mix">Mezcla <b id="o_m2"></b></div><input type="range" id="m2" min="0" max="100" value="35"></div>
@@ -413,7 +413,7 @@ nav.ctrl button.arr:hover{border-color:var(--red);background:var(--red)}
     </div>
     <div class="receipt">
       <h4><span>Motor Care · Servicio</span><span style="font-size:14px;color:#777" id="r_seg"></span></h4>
-      <div class="row"><span>Precio al cliente</span><span id="r_price"></span></div>
+      <div class="row"><span>Precio sugerido del servicio</span><span id="r_price"></span></div>
       <div class="row neg"><span>Producto (<span id="r_cansn"></span> × $14.18)</span><span id="r_prod"></span></div>
       <div class="row neg"><span>Comisión asesor</span><span id="r_com"></span></div>
       <div class="row neg"><span>Mano de obra técnico</span><span id="r_lab"></span></div>
@@ -519,7 +519,7 @@ const BEN=[
  ['Larga duración','Protección duradera: el cliente nota la diferencia por meses.'],
  ['Fórmula amigable','Formulación amigable con el medio ambiente.'],
  ['Acabado de exhibición','Un acabado visual impresionante: el capó abierto se convierte en tu mejor vendedor.'],
- ['Un solo paso','Detalla, protege y lubrica todo el compartimiento en una sola aplicación. Rápido para el taller.']
+ ['Un solo paso','Detalla, protege y sella todo el compartimiento en una sola aplicación. Rápido para el taller.']
 ];
 document.getElementById('bens').innerHTML=BEN.map((b,i)=>`
  <div class="ben" onclick="this.classList.toggle('flip')"><div class="ben-in">
